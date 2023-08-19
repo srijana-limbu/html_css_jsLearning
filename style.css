@@ -1,6 +1,14 @@
 h1{
-    color: rgb(97, 13, 177);
+    color: #e97d44;
 }
 p{
-    color: mediumblue;
+    color: #0047ab;
+}
+body{
+        background-color: lavender;
+}
+button{
+    font-size: large;
+    color: rgb(232, 167, 45);
+    background-color: rgb(178, 231, 178);
 }
