@@ -1,14 +1,45 @@
-h1{
-    color: #e97d44;
+*{
+    color: #c9ada9;
 }
+
+h1{
+   color: #c9ada9; 
+}
+
 p{
-    color: #0047ab;
+    color: #4d6a6d;
+}
+
+h2{
+    color: #798478;
 }
 body{
-        background-color: rgb(161, 143, 92);
+    background-color: #eae0cc;
 }
+#box{
+    color: rgb(0, 255, 26);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading{
+    color: #798478;
+
+}
+
 button{
-    font-size: large;
-    color: rgb(232, 167, 45);
-    background-color: rgb(178, 231, 178);
+    background-color: rgb(197, 239, 241);
+    color: darkred;
+    
+}
+.ph{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#outer{
+    font-size: 30px;
+}
+
+#inner{
+    font-size: 10px;
 }
