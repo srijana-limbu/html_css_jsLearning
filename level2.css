@@ -22,10 +22,10 @@ h1{
 #sq{
     height: 100px;
     width: 100px;
-    background-color: lavender;
+    background-color: #ccd5ae;
     border: 5px;
     border-style: groove;
-    border-color: rgb(125, 40, 191);
+    border-color: #d4a373;
     border-radius: 15px;
 }
 
@@ -33,10 +33,10 @@ h1{
 #circle{
     height: 100px;
     width: 100px;
-    background-color: lavender;
+    background-color: #dda15e;
     border: 5px;
     border-style: groove;
-    border-color: rgb(125, 40, 191);
+    border-color: #283618;
     border-radius: 50%;
     text-align: center;
 }
