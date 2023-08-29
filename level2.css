@@ -1,0 +1,42 @@
+div{
+    height: 100px;
+    background-color: chartreuse;
+    width: 100px;
+    /* border: 5px;
+    border-style: dashed;
+    border-color: goldenrod; */
+
+    border: 5px dashed goldenrod;
+}
+
+h1{
+    background-color: lavender;
+    height: 90px;
+    width: 920px;
+    border-style: solid;
+   border: 5px;
+    border-color: rgb(33, 33, 128);
+    text-align: center;
+}
+
+#sq{
+    height: 100px;
+    width: 100px;
+    background-color: lavender;
+    border: 5px;
+    border-style: groove;
+    border-color: rgb(125, 40, 191);
+    border-radius: 15px;
+}
+
+
+#circle{
+    height: 100px;
+    width: 100px;
+    background-color: lavender;
+    border: 5px;
+    border-style: groove;
+    border-color: rgb(125, 40, 191);
+    border-radius: 50%;
+    text-align: center;
+}
