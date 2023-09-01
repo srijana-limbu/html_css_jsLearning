@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     color: white;
+    border: 0px;
 }
 div{
     height: 100px;
@@ -84,4 +85,9 @@ button{
 a{
     margin-right: 200px;
     text-decoration: none;
+}
+
+#displayproperty{
+    background-color: #c9ada7;
+    display: inline;
 }

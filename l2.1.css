@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#box {
+    background-color: cadetblue;
+    display: inline;
+}
+#b {
+    background-color: darkseagreen;
+    display: block;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  padding: 25px;
+  margin: 25px;
+  background-color: cornflowerblue;
+  /* display: inline;      if we add display inline we can not set margin from top or button so we use "inline block" */
+  display: inline-block;
+}      
