@@ -1,0 +1,16 @@
+.contentBox {
+    height: 100px;
+    width: 100px;
+}
+
+#navbar {
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+#logo {
+    color: #f08804;
+}
+button {
+    background-color: #f08804;
+}

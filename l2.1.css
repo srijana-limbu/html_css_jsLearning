@@ -17,7 +17,8 @@ div {
   width: 100px;
   padding: 25px;
   margin: 25px;
-  background-color: cornflowerblue;
+  background-color: rgba(100, 255, 150, 0.50);
   /* display: inline;      if we add display inline we can not set margin from top or button so we use "inline block" */
   display: inline-block;
+
 }      
