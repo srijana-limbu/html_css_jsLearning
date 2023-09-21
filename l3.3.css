@@ -1,0 +1,19 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: #bc6c25;
+    border: 3px solid #011936;
+    display: inline-block;
+}
+
+
+    
+#box1{
+    background-image: url("Zamioculcas plant.jpg");
+    background-size: cover;
+
+/*  for backgroind-size: containt
+    background-size: contain;
+    background-repeat: no-repeat; */
+
+}

@@ -1,0 +1,29 @@
+/* percentage(%) */
+
+#box1{
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    /* lets learn em unit  */
+    font-size: 10px;
+}
+
+#box2{
+    /* height: 50px; */
+    width: 33%;
+    background-color: darkseagreen;
+    margin-left: 10%;
+
+    /* for em unit */
+    font-size: 2em; 
+    /* 2 times of parent's font-size // for half: 0.5em; */
+
+    /* width: 2em; */
+    /*width(child box)=font-size of parent(n em)*font size of child(n emor n times) */
+
+    /* for rem unit */
+    width: 5rem;
+
+    /* for view point height (vh) unit */
+    height: 10vh;
+} 
