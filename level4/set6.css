@@ -1,0 +1,33 @@
+.navbar {
+    background-color: rgb(217, 195, 237);
+
+    display: flex;
+    /* by this all the items contains in container */
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(234, 220, 67);
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+/* ans of Q2. */
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+}
