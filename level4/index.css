@@ -26,7 +26,7 @@ div{
 #box2{
     background-color: #c1121f;
     height: 200px;
-    flex-shrink: 2;
+    flex-shrink: 3;
 }
 #box3{
     background-color: #fdf0d5;
