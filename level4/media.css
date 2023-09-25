@@ -1,0 +1,24 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+}
+
+@media(width: 600px)
+{
+    div{
+        background-color: #80ffdb;
+    }
+}
+
+@media(min-width: 600px){
+    div{
+        background-color: #7371fc;
+    }
+}
+
+@media(min-width: 200px) and (max-width: 400px){
+    div{
+        background-color: limegreen;
+    }
+}
