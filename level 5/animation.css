@@ -1,0 +1,42 @@
+div{
+    height: 100px;
+    width: 100px;
+    /* border-radius: 50%; */
+    background-color: #f5cb5c;
+    border: 5px solid #242423;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+
+    /* animation-name: colorAnimate;
+    animation-duration: 2s; */
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 0s;
+    animation-iteration-count: infinite;
+
+
+    animation-direction: alternate-reverse; */
+
+    animation: colorAnimate 2s ease-in 1s 5 alternate-reverse;
+
+
+}
+
+@keyframes colorAnimate{
+    /* from{background-color: #f5cb5c;}
+    to{background-color: #e8eddf;} */
+
+    /* for animation-direction */
+    from{
+        left: 0px;
+        background-color: #f5cb5c;
+    }
+
+    to{
+        left: 200px;
+        background-color: #e8eddf;
+        color:blue;
+    }
+
+    
+}
