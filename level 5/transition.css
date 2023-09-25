@@ -1,0 +1,39 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: #c6ac8f;
+    border: 5px solid #22333b;
+
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+    /* transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: steps(3);
+    transition-delay: 1s; */
+
+    transition: all 2s ease-in-out 1s;
+    /* transform: rotate(45deg); */
+
+    /* transform: scale(2); */
+
+}
+
+div:hover {
+    /* background-color: #eae0d5;
+    font-size: 30px; */
+
+    /* we can use transform property in pseudo class also */
+    /* transform: scale(2);
+
+    transform: rotate(180deg);  */
+
+    /* transform: translate(-200px,200px); */
+
+    transform: skew(90deg);
+}
+
+div:active{
+    background-color: #22333b;
+}
