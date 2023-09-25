@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: #bdc4a7;
+}
+ @media(max-width: 300px){
+    div{
+        background-color: #93827f;
+    }
+ }
+
+ @media(min-width: 300px) and (max-width: 400px){
+    div{
+        background-color: #f3f9d2;
+    }
+ }
+
+ 
+ @media(min-width: 400px) and (max-width: 600px){
+    div{
+        background-color: #2f2f2f;
+    }
+ }
+
+ @media(min-width: 600px){
+    div{
+        background-color: #92b4a7;
+    }
+ }
