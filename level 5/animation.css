@@ -34,9 +34,47 @@ div{
 
     to{
         left: 200px;
-        background-color: #e8eddf;
+        background-color: #cfdbd5;
         color:blue;
     }
 
     
+}
+
+/* box2 for learn % in animation */
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: #a1a499;
+    border: 5px solid #cadbc8;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+   
+   
+
+    animation: secondAnimate 4s ease-out 1s infinite alternate;
+
+}
+
+@keyframes secondAnimate{
+    0%{
+        top: 0px;
+        background-color: #e2d4b7;
+        font-size: 15px;
+        color: black;
+
+    }
+    50%{
+        background-color: #9c9583;
+        font-size: 25px;
+        color: #f5cb5c;
+    }
+    100%{
+        left: 200px;
+        background-color: #b0bbbf;
+        font-size: 30px;
+        color: chartreuse;
+        transform: scale(2);
+    }
 }
