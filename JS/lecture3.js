@@ -85,3 +85,17 @@
 //    }
 // }
 
+//template literals
+// let str = `This is template literal`;
+// console.log(typeof str);
+
+// let obj = {
+//     item: "pen",
+//     price: 20
+// };
+// let output = `The cost of ${obj.item} is ${obj.price} rupees`;
+// console.log(output);//> "The cost of pen is 20 rupees"
+
+// let str = `This is template literal ${1+2*3}`;
+// console.log(str);//> "This is template literal 7"
+
