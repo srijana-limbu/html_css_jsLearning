@@ -1,0 +1,11 @@
+/* .krishna {
+    color: blueviolet;
+} */
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    text-align: center;
+    background-color: blueviolet;
+}
