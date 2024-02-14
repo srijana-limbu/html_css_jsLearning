@@ -1,0 +1,16 @@
+#box {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(101, 14, 176);
+    color: black;
+    border: 2px solid blue;
+}
+
+#box1 {
+    height: 250px;
+    width: 100px;
+    background-color: rgb(101, 14, 176);
+    color: white;
+    border: 2px solid blue;
+    margin-top: 100px;
+}
