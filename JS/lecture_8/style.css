@@ -1,0 +1,37 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid rgb(89, 50, 189);
+}
+
+#btn3 {
+    background-color: rgb(74, 101, 135);
+    color: rgb(28, 5, 58);
+}
+
+
+#btn4 {
+    background-color: rgb(110, 74, 16);
+    color: rgb(10, 12, 9);
+}
+
+
+
+#mode {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(19, 82, 23);
+    color: rgb(199, 211, 194);
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
