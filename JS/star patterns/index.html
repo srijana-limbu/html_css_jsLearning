@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>star patterns</title>
+    <style>
+        body {
+            color: blueviolet;
+            font-size: 6rem;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+        // for (let i = 1; i <= 5; i++) {
+        //    for (let j = 1; j <= i; j++ ) {
+        //     document.write("*");
+        //    } 
+        //    document.write("<br>");
+        // }
+        
+
+         let i, j, k, l;
+        // let x = 5;
+        // for (i = 1; i<= x; i++) {
+
+        //     for (k = 1; k<= x-i; k++) {
+        //         document.write("&nbsp;&nbsp");
+        //     }
+
+        //     for ( j = 1; j <= i; j++) {
+        //         document.write("*");
+        //     }
+        //     document.write("<br>");
+        // }
+
+        //triangle pattern
+        for (i = 1; i <= 5; i++) {
+
+            for (k = 1; k <= 5 - i; k++) {
+                document.write("&nbsp;&nbsp");
+            }
+
+            for (j = 1; j <= i; j++) {
+                document.write("*");
+            }
+
+            for (l = 2; l <= i; i++) {
+                document.write("*");
+            }
+            document.write("<br>");
+
+        }
+
+    </script>
+</body>
+</html>
